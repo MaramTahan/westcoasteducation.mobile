@@ -53,7 +53,7 @@
   /*--------------------big screen--------------------*/
   @media (min-width: 768px) {
     .header{
-      background: url("/assets/images/pexels-pic.jpg")no-repeat center center/cover;
+      background: url("./assets/images/pexels-pic.jpg")no-repeat center center/cover;
       height: 800px;
     }
     .header-text{

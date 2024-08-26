@@ -1,59 +1,58 @@
 /*----------------Contact page---------------*/
-.contact-page{
+.contact-page {
   padding: 30px 0;
   margin: 5px;
 }
-.contact-title{
+.contact-title {
   font-size: 1.5rem;
   margin-bottom: 5px;
 }
-.contact-page p{
+.contact-page p {
   color: #514e4e;
 }
 
-.contact-container{
+.contact-container {
   padding: 30px 0;
   margin: 5px;
 }
-.form-control{
+.form-control {
   margin-bottom: 15px;
 }
-.contact-container label{
+.contact-container label {
   display: block;
 }
 
-.contact-container input, textarea{
+.contact-container input,
+textarea {
   width: 100%;
   padding: 10px;
   border: solid 1px #ddd;
 }
-.contact-container input:focus, textarea:focus{
+.contact-container input:focus,
+textarea:focus {
   outline: none !important;
-  border: solid 1px  rgb(22, 101, 64);
+  border: solid 1px rgb(22, 101, 64);
 }
-.btn{
+.btn {
   display: inline-block;
   background-color: rgb(22, 101, 64);
-  color:  #fefefe;
+  color: #fefefe;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
   width: 100%;
   border-radius: 5px;
-  
-  
 }
-.btn:hover{
-  background-color:#514e4e;
+.btn:hover {
+  background-color: #514e4e;
   color: #fefefe;
 }
 
 /*----------------------------------------*/
-  /*--------------------big screen--------------------*/
+/*--------------------big screen--------------------*/
 @media (min-width: 768px) {
-  .contact-title{
+  .contact-title {
     font-size: 2rem;
     margin-bottom: 5px;
   }
-  
 }

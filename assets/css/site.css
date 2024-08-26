@@ -2,147 +2,143 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- }
- body {
- background-color: #fefefe;
- color: rgb(22, 101, 64);
- font-family: 'Libre Baskerville', serif;
- }
- .page-title{
+}
+body {
+  background-color: #fefefe;
+  color: rgb(22, 101, 64);
+  font-family: "Libre Baskerville", serif;
+}
+.page-title {
   font-size: 3rem;
   padding-top: 20px;
   text-shadow: 2px 4px 4px #514e4e;
   font-weight: bold;
   font-family: "Rubik Vinyl", sans-serif;
   margin-left: 20px;
-  line-height: .8em;
+  line-height: 0.8em;
   text-decoration: none;
- }
- .page-title span{
-  font-family: 'Libre Baskerville', serif;
+}
+.page-title span {
+  font-family: "Libre Baskerville", serif;
   margin-left: 110px;
   font-size: 2rem;
   font-weight: normal;
   text-shadow: 1px 2px 5px #514e4e;
- }
+}
 /*----------------------------------------*/
- .welcome-content{
-  border: 3px solid ;
+.welcome-content {
+  border: 3px solid;
   padding: 5%;
   border-radius: 5px;
   width: 90%;
   margin: 5%;
-  margin-bottom: 100px;/*-----*/
+  margin-bottom: 100px; /*-----*/
   box-shadow: 1px 2px 15px #514e4e;
   background-color: rgb(22, 101, 64);
   color: #fefefe;
-  }
-  .welcome{
-   margin-bottom: 2%;
-  }
-  .welcome-content p{
-   font-size: 1.2rem;
-  }
-  /*----------------------------------------*/
-  /*---------------------footer content-------------------*/
-  .footer-cotent{
-    background-color:  rgb(22, 101, 64);
-    height: 300px;
-    color: #fefefe;
-    display: grid;
-    border-top:30px solid #514e4e;
-    box-shadow: 1px 2px 15px #514e4e;
-   }
-   .footer-up{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    
-   }
-   
-   .icon{
-    display: flex;
-    font-size: 1.5rem;
-    padding-top: 30px;
-    padding-left: 150px;/*-----*/
-    text-align: center;
-    cursor: pointer;
-   }
-   .icon i{
-    padding: 8px;
-   }
-   .icon i:hover{
-    color: #514e4e;
-   }
-  .page-title-footer{
-   font-size: 2rem;
-   padding-top: 30px;
-   text-shadow: 2px 4px 4px #514e4e;
-   font-weight: bold;
-   font-family: "Rubik Vinyl", sans-serif;
-   margin-left: 20px;
-   line-height: 1em;
-  }
-  .page-title-footer span{
-   font-family: 'Libre Baskerville', serif;
-   margin-left: 60px;
-   font-size: 1.5rem;
-   font-weight: normal;
-   text-shadow: 1px 2px 5px #514e4e;
-  }
-  .footer-down{
-   font-size: 1rem;
-   text-shadow: 1px 2px 7px #514e4e;
-   text-align: center;
-   margin: 4px;
-  }
-  hr{
-   height: 2px;
-   background-color: #514e4e;
-   text-align: center;
-   margin: 20px;
-  }
+}
+.welcome {
+  margin-bottom: 2%;
+}
+.welcome-content p {
+  font-size: 1.2rem;
+}
+/*----------------------------------------*/
+/*---------------------footer content-------------------*/
+.footer-cotent {
+  background-color: rgb(22, 101, 64);
+  height: 300px;
+  color: #fefefe;
+  display: grid;
+  border-top: 30px solid #514e4e;
+  box-shadow: 1px 2px 15px #514e4e;
+}
+.footer-up {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
 
-  /*----------------------------------------*/
-  /*--------------------big screen--------------------*/
-  @media (min-width: 768px) {
-    .page-title{
-      font-size: 5rem;
-      margin-left: 40px;
-    }
-    .page-title span{
-      margin-left: 215px;
-      font-size: 4rem;
-    }
-    .welcome-content{
-      margin: 5%;
-    }
-    .welcome-content p{
-      font-size: 1.5rem;
-    }
-    /*---------------*/
-    .footer-up{
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 0;
-      
-    }
-    .icon{
-      font-size: 3rem;
-      
-    }
-    .icon i{
-      padding: 8px;
-      
-    }
-    .page-title-footer{
-      font-size: 4rem;
-      margin-left: 40px;
-    }
-    .page-title-footer span{
-      margin-left: 120px;
-      font-size: 4rem;
-    }
-    .footer-down{
-      font-size: 1.5rem;
-    }
+.icon {
+  display: flex;
+  font-size: 1.5rem;
+  padding-top: 30px;
+  padding-left: 150px; /*-----*/
+  text-align: center;
+  cursor: pointer;
+}
+.icon i {
+  padding: 8px;
+}
+.icon i:hover {
+  color: #514e4e;
+}
+.page-title-footer {
+  font-size: 2rem;
+  padding-top: 30px;
+  text-shadow: 2px 4px 4px #514e4e;
+  font-weight: bold;
+  font-family: "Rubik Vinyl", sans-serif;
+  margin-left: 20px;
+  line-height: 1em;
+}
+.page-title-footer span {
+  font-family: "Libre Baskerville", serif;
+  margin-left: 60px;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-shadow: 1px 2px 5px #514e4e;
+}
+.footer-down {
+  font-size: 1rem;
+  text-shadow: 1px 2px 7px #514e4e;
+  text-align: center;
+  margin: 4px;
+}
+hr {
+  height: 2px;
+  background-color: #514e4e;
+  text-align: center;
+  margin: 20px;
+}
+
+/*----------------------------------------*/
+/*--------------------big screen--------------------*/
+@media (min-width: 768px) {
+  .page-title {
+    font-size: 5rem;
+    margin-left: 40px;
   }
+  .page-title span {
+    margin-left: 215px;
+    font-size: 4rem;
+  }
+  .welcome-content {
+    margin: 5%;
+  }
+  .welcome-content p {
+    font-size: 1.5rem;
+  }
+  /*---------------*/
+  .footer-up {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+  }
+  .icon {
+    font-size: 3rem;
+  }
+  .icon i {
+    padding: 8px;
+  }
+  .page-title-footer {
+    font-size: 4rem;
+    margin-left: 40px;
+  }
+  .page-title-footer span {
+    margin-left: 120px;
+    font-size: 4rem;
+  }
+  .footer-down {
+    font-size: 1.5rem;
+  }
+}
